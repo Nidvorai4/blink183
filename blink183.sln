@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "blink183", "blink183\blink183.vcxproj", "{914A6B1F-6A8C-4FED-80A3-7D8800B50115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{914A6B1F-6A8C-4FED-80A3-7D8800B50115}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{914A6B1F-6A8C-4FED-80A3-7D8800B50115}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{914A6B1F-6A8C-4FED-80A3-7D8800B50115}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{914A6B1F-6A8C-4FED-80A3-7D8800B50115}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68337208-1320-4202-8B91-BE8808071100}
+	EndGlobalSection
+EndGlobal
