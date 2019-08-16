@@ -20,6 +20,8 @@ int main()
   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
   GPIO_Init(GPIOC, &GPIO_InitStructure);
 // hui
+	// hui2
+	
   for (;;)
   {
 	  GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_SET);
