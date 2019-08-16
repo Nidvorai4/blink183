@@ -1,10 +1,10 @@
 #include <stm32f10x_gpio.h>
 #include <stm32f10x_rcc.h>
 
-void Delay()
+void Delay(int D )
 {
 	int i;
-	for (i = 0; i < 2000000; i++)
+	for (i = 0; i < D; i++)
 		asm("nop");
 }
 
@@ -19,12 +19,23 @@ int main()
   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
   GPIO_Init(GPIOC, &GPIO_InitStructure);
-
+// hui
   for (;;)
   {
 	  GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_SET);
-	  Delay();
+	  Delay(300000);
 	  GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_RESET);
-	  Delay();
+	  Delay(300000);
+
+	  GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_SET);
+	  Delay(3000000);
+	  GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_RESET);
+	  Delay(3000000);
+
+	  GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_SET);
+	  Delay(300000);
+	  GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_RESET);
+	  Delay(3000000);
+	  
   }
 }
