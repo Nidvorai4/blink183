@@ -24,6 +24,7 @@ int main()
 	//hui3
 	//hui GIT
 	// hui local 2
+	// display
   for (;;)
   {
 	  GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_SET);
