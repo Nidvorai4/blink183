@@ -22,7 +22,7 @@ int main()
 // hui
 	// hui2
 	//hui3
-	//HUI local
+	
   for (;;)
   {
 	  GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_SET);
