@@ -21,7 +21,7 @@ int main()
   GPIO_Init(GPIOC, &GPIO_InitStructure);
 // hui
 	// hui2
-	
+	//hui3
   for (;;)
   {
 	  GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_SET);
